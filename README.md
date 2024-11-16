@@ -16,7 +16,7 @@ It provides a basic interactive command-line interface that can handle built-in 
 ```
 MySimpleShell/
 ├── docs/
-│   └── shell_explanation.pdf         # Main shell code implementation
+│   └── shell_explanation.pdf         # Main shell code explanation
 ├── src/
 │   └── shell.c                       # Main shell code implementation
 ├── Makefile                          # Makefile for building the project
