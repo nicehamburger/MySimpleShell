@@ -44,7 +44,7 @@ git clone https://github.com/nicehamburger/MySimpleShell
 cd MySimpleShell
 ```
 
-### Build with make
+### Build the project using make
 ```bash
 make
 ```
@@ -56,7 +56,7 @@ make
 You will be presented with a prompt (> ) where you can enter commands.
 
 Commands:
-cd [directory]: Change the current directory.
-help: Display the help menu, listing available commands.
-exit: Exit the shell.
-Any other command will be treated as an external command (if it exists).
+cd [directory]: Change the current directory.<br>
+help: Display the help menu, listing available commands.<br>
+exit: Exit the shell.<br>
+Any other command will be treated as an external command (if it exists).<br>
