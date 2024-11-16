@@ -1,4 +1,4 @@
-# My Simple Shell
+# Basic C Shell
 
 ## Overview
 
