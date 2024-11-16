@@ -2,7 +2,8 @@
 
 ## Overview
 
-This is a simple Unix shell implemented in C, based on [Brennan's tutorial](https://brennan.io/2015/01/16/write-a-shell-in-c/). It provides a basic interactive command-line interface that can handle built-in commands like `cd`, `help`, and `exit`, as well as external commands using process creation.
+This is a simple Unix shell implemented in C, based on [Brennan's tutorial](https://brennan.io/2015/01/16/write-a-shell-in-c/). 
+It provides a basic interactive command-line interface that can handle built-in commands like `cd`, `help`, and `exit`, as well as external commands using process creation.
 
 ## Table of Contents
 
@@ -38,13 +39,14 @@ make
 ```
 
 ## Code Structure
-
+```
 MySimpleShell/
 ├── src/
 │   └── shell.c                       # Main shell code implementation
 ├── docs/
 │   └── shell_explanation.pdf         # Main shell code implementation
 ├── Makefile                          # Makefile for building the project
+```
 ├── README.md                         # This file
 
 ## Usage
