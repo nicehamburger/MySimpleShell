@@ -7,10 +7,21 @@ It provides a basic interactive command-line interface that can handle built-in 
 
 ## Table of Contents
 
+- [Project Structure](#code-structure)
 - [Features](#features)
 - [Installation](#installation)
-- [Code Structure](#code-structure)
 - [Usage](#usage)
+
+## Project Structure
+```
+MySimpleShell/
+├── docs/
+│   └── shell_explanation.pdf         # Main shell code implementation
+├── src/
+│   └── shell.c                       # Main shell code implementation
+├── Makefile                          # Makefile for building the project
+├── README.md                         # This file
+```
 
 ## Features
 
@@ -38,18 +49,14 @@ cd MySimpleShell
 make
 ```
 
-## Code Structure
-```
-MySimpleShell/
-├── src/
-│   └── shell.c                       # Main shell code implementation
-├── docs/
-│   └── shell_explanation.pdf         # Main shell code implementation
-├── Makefile                          # Makefile for building the project
-├── README.md                         # This file
-```
-
 ## Usage
 ```bash
 ./lsh
 ```
+You will be presented with a prompt (> ) where you can enter commands.
+
+Commands:
+cd [directory]: Change the current directory.
+help: Display the help menu, listing available commands.
+exit: Exit the shell.
+Any other command will be treated as an external command (if it exists).
