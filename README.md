@@ -55,7 +55,7 @@ make
 ```
 You will be presented with a prompt (> ) where you can enter commands.
 
-### Commands:<br>
+### Commands
 Change the current directory
 ```
 cd [directory]
