@@ -46,8 +46,8 @@ MySimpleShell/
 ├── docs/
 │   └── shell_explanation.pdf         # Main shell code implementation
 ├── Makefile                          # Makefile for building the project
-```
 ├── README.md                         # This file
+```
 
 ## Usage
 ```bash
