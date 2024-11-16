@@ -56,7 +56,13 @@ make
 You will be presented with a prompt (> ) where you can enter commands.
 
 Commands:<br>
+```
 cd [directory]: Change the current directory.<br>
+```
+```
 help: Display the help menu, listing available commands.<br>
+```
+```
 exit: Exit the shell.<br>
+```
 Any other command will be treated as an external command (if it exists).<br>
