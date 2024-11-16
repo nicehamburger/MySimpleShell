@@ -8,10 +8,10 @@ This is a simple Unix shell implemented in C, based on [Brennan's tutorial](http
 
 - [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Code Structure](#code-structure)
+- [Usage](#usage)
 
-### Features
+## Features
 
 - Execute built-in commands (`cd`, `help`, `exit`)
 - Launch external programs using `fork()` and `execvp()`
@@ -30,14 +30,24 @@ This is a simple Unix shell implemented in C, based on [Brennan's tutorial](http
 ```bash
 git clone https://github.com/nicehamburger/MySimpleShell
 cd MySimpleShell
+```
 
+### Build with make
+```bash
 make
+```
 
-### Code Structure
+## Code Structure
 
 MySimpleShell/
 ├── src/
-│   └── shell.c         # Main shell code implementation
-├── Makefile            # Makefile for building the project
-├── README.md           # This file
-└── output/             # Optional directory for output files
+│   └── shell.c                       # Main shell code implementation
+├── docs/
+│   └── shell_explanation.pdf         # Main shell code implementation
+├── Makefile                          # Makefile for building the project
+├── README.md                         # This file
+
+## Usage
+```bash
+./lsh
+```
