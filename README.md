@@ -55,14 +55,17 @@ make
 ```
 You will be presented with a prompt (> ) where you can enter commands.
 
-Commands:<br>
+### Commands:<br>
+Change the current directory
 ```
-cd [directory]: Change the current directory.<br>
+cd [directory]
 ```
+Display the help menu, listing available commands
 ```
-help: Display the help menu, listing available commands.<br>
+help
 ```
+Exit the shell
 ```
-exit: Exit the shell.<br>
+exit
 ```
 Any other command will be treated as an external command (if it exists).<br>
